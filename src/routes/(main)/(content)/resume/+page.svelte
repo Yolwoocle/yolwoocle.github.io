@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Socials from "../../Socials.svelte";
 	import TextButton from "../../TextButton.svelte";
+	import ResumeCard from "./ResumeCard.svelte";
 
   const today = new Date();
   
@@ -28,145 +29,144 @@
         
         <h1 class="font-black text-4xl py-6">Experience</h1>
         <div class="flex flex-col gap-3">
-            <div class="bg-white rounded-2xl p-4 shadow-[2px_8px_0px_var(--transp-shad)]">
-                <h3 class="font-black text-2xl pb-2">Godot Developer</h3>
-                <p class="text-l">
-                    <strong>SMKS Studios · Remote</strong>
-                </p>
-                <p class="text-l">
-                    May 2026 - Present ({smksDuration} months)
-                </p>
-                <p class="text-l pt-4">
-                    Part-time Godot Developer for <a href="https://store.steampowered.com/app/2551790/Tribe_of_the_Accord/" class="card-link">Tribe of the Accord</a>, 
-                    an story-driven action-adventure game about a young huntress on a quest to rescue her father.
-                </p>
-            </div>
+            <ResumeCard
+                title="Godot Developer"
+                subtitle="SMKS Studios · Remote"
+                period="May 2026 - Present ({smksDuration} months)"
+                stickerImg="/assets/images/resume/tota.png"
+                stickerAlt="Tribe of the Accord logo"
+                stickerRound={true}
+            >
+                Part-time Godot Developer for <a href="https://store.steampowered.com/app/2551790/Tribe_of_the_Accord/" class="card-link">Tribe of the Accord</a>, 
+                an story-driven action-adventure game about a young huntress on a quest to rescue her father.
+            </ResumeCard>
 
-            <div class="bg-white rounded-2xl p-4 shadow-[2px_8px_0px_var(--transp-shad)]">
-                <h3 class="font-black text-2xl pb-2">Entrepreneurship Summer Camp</h3>
-                <p class="text-l">
-                    <strong>La Mêlée · Toulouse, France</strong>
-                </p>
-                <p class="text-l">
-                    June 2026 - July 2026 (1.5 months)
-                </p>
-                <p class="text-l pt-4">
-                    Participant in the 2026 Entrepreneurship Internship Summer Camp, where I developped my
-                    professional activity, met entrepreneurs and leaders, and was guided by mentors for 
-                    my projects.
-                </p>
-            </div>
+            <ResumeCard
+                title="President of 7Fault"
+                subtitle="ENSEEIHT · Toulouse, France"
+                period="May 2026 - May 2027 (1 year)"
+                stickerImg="/assets/images/resume/7fault.png"
+                stickerAlt="7fault logo"
+                stickerRound={true}
+            >
+                President of <a href="https://7fault.itch.io/" class="card-link">7Fault</a>, 
+                ENSEEIHT's student game development club.
+            </ResumeCard>
 
-            <div class="bg-white rounded-2xl p-4 shadow-[2px_8px_0px_var(--transp-shad)]">
-                <h3 class="font-black text-2xl pb-2">Co-Founder</h3>
-                <p class="text-l">
-                    <strong>Ninesliced · Toulouse, France</strong>
-                </p>
-                <p class="text-l">
-                    Nov 2024 - Present ({nineslicedDuration} months)
-                </p>
-                <p class="text-l pt-4">
-                    Co-founder of Ninesliced, a student-run game development band.
-                </p>
-            </div>
+            <ResumeCard
+                title="Entrepreneurship Summer Camp"
+                subtitle="La Mêlée · Toulouse, France"
+                period="June 2026 - July 2026 (1.5 months)"
+                stickerImg="/assets/images/resume/lamelee.png"
+                stickerAlt="La Mêlée logo"
+                stickerRound={false}
+            >
+                Participant in the 2026 Entrepreneurship Internship Summer Camp by 
+                <a href="https://lamelee.com/" class="card-link">La Mêlée</a>, where I developped my
+                professional activity, met entrepreneurs and leaders, and was guided by mentors for 
+                my projects.
+            </ResumeCard>
 
-            <div class="bg-white rounded-2xl p-4 shadow-[2px_8px_0px_var(--transp-shad)]">
-                <h3 class="font-black text-2xl pb-2">Frontend Developer Intern</h3>
-                <p class="text-l">
-                    <strong>Kinkotech · Shanghai, China</strong>
-                </p>
-                <p class="text-l">
-                    Jul 2025 - Aug 2025 (2 months)
-                </p>
-                <p class="text-l pt-4">
-                    Frontend Vue 3 development at Kinkotech 
-                    (<a href="https://kinkotec.com.cn" class="card-link">kinkotec.com.cn</a>) in 
-                    the context of an internship program organised by SORSA Shanghai.
-                </p>
-            </div>
+            <ResumeCard
+                title="Co-Founder"
+                subtitle="Ninesliced · Toulouse, France"
+                period="Nov 2024 - Present ({nineslicedDuration} months)"
+                stickerImg="/assets/images/resume/ninesliced.png"
+                stickerAlt="Ninesliced logo"
+                stickerRound={true}
+            >
+                Co-founder, developer, and designer at <a href="https://ninesliced.com" class="card-link">Ninesliced</a>, a student-run game development band.
+            </ResumeCard>
+
+            <ResumeCard
+                title="Frontend Developer Intern"
+                subtitle="Kinkotech · Shanghai, China"
+                period="Jul 2025 - Aug 2025 (2 months)"
+                stickerImg="/assets/images/resume/sorsa.png"
+                stickerAlt="SORSA logo"
+                stickerRound={true}
+            >
+                Frontend Vue 3 development at 
+                <a href="https://kinkotec.com.cn" class="card-link">Kinkotech</a> in 
+                the context of a summer internship program organised by <a href="https://www.china-sorsa.org/n195/n314/zjtxh/txhjj.html" class="card-link">SORSA Shanghai</a>.
+            </ResumeCard>
             
-            <div class="bg-white rounded-2xl p-4 shadow-[2px_8px_0px_var(--transp-shad)]">
-                <h3 class="font-black text-2xl pb-2">Freelance Illustrator</h3>
-                <p class="text-l">
-                    <strong>Remote</strong>
-                </p>
-                <p class="text-l">
-                    2025
-                </p>
-                <p class="text-l pt-4">
-                    Worked for various clients as a freelance illustrator. 
-                    In particular, worked as an illustrator for <a href="https://store.steampowered.com/app/3238790/Blade_Rush/" class="card-link">Blade Rush</a>'s 
-                    promotional artwork.
-                </p>
-            </div>
+            <ResumeCard
+                title="Freelance Illustrator"
+                subtitle="Remote"
+                period="2025"
+                
+                stickerImg="/assets/images/resume/bladerush.png"
+                stickerAlt="Blade Rush icon"
+                stickerRound={false}
+            >
+                Worked for various clients as a freelance illustrator. 
+                In particular, worked as an illustrator for <a href="https://store.steampowered.com/app/3238790/Blade_Rush/" class="card-link">Blade Rush</a>'s 
+                promotional artwork.
+            </ResumeCard>
 
-            <div class="bg-white rounded-2xl p-4 shadow-[2px_8px_0px_var(--transp-shad)]">
-                <h3 class="font-black text-2xl pb-2">Freelance Python developer</h3>
-                <p class="text-l">
-                    <strong>Toulouse, Freelance</strong>
-                </p>
-                <p class="text-l">
-                    Nov 2024 - Jan 2025 (3 months)
-                </p>
-                <p class="text-l pt-4">
-                    Development of a Discord prototype bot for a client using Nextcord.
-                </p>
-            </div>
+            <ResumeCard
+                title="Freelance Python developer"
+                subtitle="Toulouse, Freelance"
+                period="Nov 2024 - Jan 2025 (3 months)"
+
+                stickerImg="/assets/images/resume/nextcord.png"
+                stickerAlt="Nextcord logo"
+                stickerRound={false}
+            >
+                Development of a Discord prototype bot for a client using Nextcord.
+            </ResumeCard>
         </div>
 
         <h1 class="font-black text-4xl py-10 pb-6">Education</h1>
         <div class="flex flex-col gap-3">
-            <div class="bg-white rounded-2xl p-4 shadow-[2px_8px_0px_var(--transp-shad)]">
-                <h3 class="font-black text-2xl pb-2">ENSEEIHT</h3>
-                <p class="text-l">
-                    <strong>Toulouse, France</strong>
-                </p>
-                <p class="text-l">
-                    2025 - Present
-                </p>
-                <p class="text-l pt-4">
-                    Engineering Degree, Computer Science (Sciences du Numérique)
-                </p>
-            </div>
+            <ResumeCard
+                title="ENSEEIHT"
+                subtitle="Toulouse, France"
+                period="2025 - Present"
+                
+                stickerImg="/assets/images/resume/enseeiht.png"
+                stickerAlt="ENSEEIHT logo"
+                stickerRound={false}
+            >
+                Engineering Degree, Computer Science (Sciences du Numérique)
+            </ResumeCard>
 
-            <div class="bg-white rounded-2xl p-4 shadow-[2px_8px_0px_var(--transp-shad)]">
-                <h3 class="font-black text-2xl pb-2">University of Toulouse</h3>
-                <p class="text-l">
-                    <strong>Toulouse, France</strong>
-                </p>
-                <p class="text-l">
-                    2023 - 2025
-                </p>
-                <p class="text-l pt-4">
-                    Double Bachelor's Degree in Mathematics and Computer Science (MIDL)
-                </p>
-            </div>
+            <ResumeCard
+                title="University of Toulouse"
+                subtitle="Toulouse, France"
+                period="2023 - 2025"
+                
+                stickerImg="/assets/images/resume/utoulouse.png"
+                stickerAlt="University of Toulouse logo"
+                stickerRound={true}
+            >
+                Double Bachelor's Degree in Mathematics and Computer Science (MIDL)
+            </ResumeCard>
 
-            <div class="bg-white rounded-2xl p-4 shadow-[2px_8px_0px_var(--transp-shad)]">
-                <h3 class="font-black text-2xl pb-2">Lycée du Parc</h3>
-                <p class="text-l">
-                    <strong>Lyon, France</strong>
-                </p>
-                <p class="text-l">
-                    2022 - 2023
-                </p>
-                <p class="text-l pt-4">
-                    CPGE (Preparatory Classes for Grandes Ecoles) in MP2I (Mathematics, Physics, Engineering Science, and Computer Science)
-                </p>
-            </div>
+            <ResumeCard
+                title="Lycée du Parc"
+                subtitle="Lyon, France"
+                period="2022 - 2023"
+                
+                stickerImg="/assets/images/resume/lyceeduparc.png"
+                stickerAlt="Lycée du Parc logo"
+                stickerRound={false}
+            >
+                CPGE (Preparatory Classes for Grandes Ecoles) in MP2I (Mathematics, Physics, Engineering Science, and Computer Science)
+            </ResumeCard>
 
-            <div class="bg-white rounded-2xl p-4 shadow-[2px_8px_0px_var(--transp-shad)]">
-                <h3 class="font-black text-2xl pb-2">Lycée Joffre</h3>
-                <p class="text-l">
-                    <strong>Montpellier, France</strong>
-                </p>
-                <p class="text-l">
-                    2019 - 2022
-                </p>
-                <p class="text-l pt-4">
-                    High School Diploma (Baccalauréat) • Graduated with "Très Bien" mention
-                </p>
-            </div>
+            <ResumeCard
+                title="Lycée Joffre"
+                subtitle="Montpellier, France"
+                period="2019 - 2022"
+                
+                stickerImg="/assets/images/resume/lyceejoffre.png"
+                stickerAlt="Lycée Joffre logo"
+                stickerRound={false}
+            >
+                High School Diploma (Baccalauréat) • Graduated with "Très Bien" mention
+            </ResumeCard>
         </div>
 
         <h1 class="font-black text-4xl py-10 pb-6">Languages</h1>
@@ -180,7 +180,7 @@
                 Fluent, TOEFL 109/120
             </div>
             <div class="flex flex-row bg-white items-center gap-3 rounded-full px-5 p-2 shadow-[2px_8px_0px_var(--transp-shad)]">
-                <strong>Mandarin Chinese</strong>
+                <strong>Mandarin</strong>
                 Conversational, HSK Level 5
             </div>
             <div class="flex flex-row bg-white items-center gap-3 rounded-full px-5 p-2 shadow-[2px_8px_0px_var(--transp-shad)]">
