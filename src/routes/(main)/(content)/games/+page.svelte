@@ -484,7 +484,7 @@
 				I started with doodling levels in sketchbooks and using Scratch to make my own little games.
 			</p>
 			<p class="text-xl">
-				Now, I have made dozens of games and co-founded a game dev band, Ninesliced, with some friends. 
+				Now, I have made dozens of games and co-founded a game dev band, <a class="card-link" href="https://ninesliced.com/">Ninesliced</a>, with some friends. 
 				I believe that this medium is unique in its interactivty and ability to create emotions in people.  
 			</p>
 			<p class="text-xl">

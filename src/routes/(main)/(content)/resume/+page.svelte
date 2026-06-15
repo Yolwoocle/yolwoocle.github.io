@@ -45,7 +45,7 @@
             <div class="bg-white rounded-2xl p-4 shadow-[2px_8px_0px_var(--transp-shad)]">
                 <h3 class="font-black text-2xl pb-2">Entrepreneurship Summer Camp</h3>
                 <p class="text-l">
-                    <strong>La Mêlée · Toulouse</strong>
+                    <strong>La Mêlée · Toulouse, France</strong>
                 </p>
                 <p class="text-l">
                     June 2026 - July 2026 (1.5 months)
