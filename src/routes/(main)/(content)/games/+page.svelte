@@ -21,7 +21,7 @@
 				imgAlt : "Bugscraper key art",
 				carouselImg : "/assets/images/games/bugscraper/gameplay.gif",
 				carouselImgAlt : "Bugscraper gameplay gif",
-				trailer : "https://www.youtube.com/embed/9Jgcwcnraf0",
+				trailer : "https://www.youtube.com/embed/-r8iK9P6csM",
 				links: [
 					{label: "Official website", link: "https://bugscraper.net/"},
 					{label: "Steam", link: "https://store.steampowered.com/app/2957130/Bugscraper/"},
