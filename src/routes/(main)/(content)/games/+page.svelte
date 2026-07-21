@@ -200,6 +200,23 @@
 		],
 
 		[
+			{
+				cardType : "small",
+				
+				label : "ROQUIN",
+				description : "Rocks vs Sharks",
+				longDescription : `Build your island and defend your precious rock against sharks. And The Rock.<br><br>
+				Made using Godot for <a class="card-link href="https://itch.io/jam/micro-jam-061">Micro Jam 61</a>, under the theme "Islands" and limitation "You Start With Nothing".`,
+				img : "/assets/images/games/roquin/thumbnail.png",
+				// imgAlt : "____________",
+				carouselImg : "/assets/images/games/roquin/screenshot.png",
+				// carouselImgAlt : "____________",
+				trailer : null,
+				links: [
+					{label: "itch.io", link: "https://nowaletyrex.itch.io/roquin"},
+					{label: "Jam submission", link: "https://itch.io/jam/micro-jam-061/rate/4771414"},
+				],
+			}, 
 
 			{
 				cardType : "small",
