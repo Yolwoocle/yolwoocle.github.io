@@ -13,6 +13,8 @@
 
 		titleTextSize = 'xl',
 		descriptionTextSize = 'md',
+
+		tags = [],
 		
 		width='240px',
 		height='280px',
@@ -31,8 +33,7 @@
 <button 
 	class={cn('group')} 
 	style={
-		`max-width: ${width};` + 
-		`height: ${height};`
+		`max-width: ${width};`
 	} 
 	
 	{onclick}
@@ -40,7 +41,7 @@
 	<div
 		bind:this={ref}
 		class={cn(
-			'relative size-full flex flex-col',
+			'relative w-full flex flex-col',
 			'pointer-events-none',
 			'rounded-2xl p-3',
 			'transition-[all,box-shadow_200ms_ease]',
@@ -53,11 +54,14 @@
 			'group-hover:-rotate-2',
 			'group-hover:shadow-[3px_16px_0px_var(--transp-shad)]',
 		)}
-		style={`background-color: ${starred ? '#fff4db' : '#fff'}`}
+		style={`background-color: ${starred ? 'var(--starred-card-bg)' : '#fff'}`}
 	>
 		{#if img}
-			<div class="flex-grow min-h-0">
-				<img src={img} alt={imgAlt} class="size-full object-cover rounded-xl" style={`object-fit: ${fillImage ? 'cover' : 'contain'};`} />
+			<div class="min-h-0">
+				<img src={img} alt={imgAlt} 
+					class="w-full aspect-5/4 object-cover rounded-xl" 
+					style={`object-fit: ${fillImage ? 'cover' : 'contain'};`
+				} />
 			</div>
 		{/if}
 		{#if showTitle}

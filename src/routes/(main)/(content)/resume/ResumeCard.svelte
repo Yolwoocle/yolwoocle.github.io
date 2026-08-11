@@ -25,7 +25,7 @@
                 class="size-18 shrink-0 aspect-square overflow-hidden shadow-[1px_3px_0px_var(--transp-shad)]"
                 class:rounded-full={stickerRound}
                 class:rounded-xl={!stickerRound}
-                style={`transform: rotate(${randomRotation}rad)`}
+                // style={`transform: rotate(${randomRotation}rad)`}
             >
                 <img class="overflow-hidden" src={stickerImg} alt={stickerAlt}/>
             </div>

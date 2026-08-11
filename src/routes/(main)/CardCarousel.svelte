@@ -32,7 +32,7 @@
 				'm-6 p-5 rounded-3xl',
 				'shadow-[2px_8px_0px_var(--transp-shad)]'
 			)}
-			style={`background-color: ${currentCard?.starred ? '#fff4db' : '#fff'}`}
+			style={`background-color: ${currentCard?.starred ? 'var(--starred-card-bg)' : '#fff'}`}
 		>
 			{#if currentCard?.trailer}
 				<iframe 
@@ -75,19 +75,32 @@
 						{@html currentCard?.description}
 					</p>
 				{/if}
-				{#if currentCard?.longDescription}
-					<p class="long-description text-lg mt-2 w-full text-left">
-						{@html currentCard?.longDescription}
-					</p>
-				{/if}
-				{#if currentCard?.links}
-					<div class="flex w-full gap-5 justify-center">
-						{#each currentCard?.links as linkInfo}
-							<a class="card-link text-lg mt-2 text-left" href={linkInfo.link}>
-								{linkInfo.label}
-							</a>
+				{#if (currentCard?.tags && currentCard?.tags.length > 0)}
+					<div class="flex flex-wrap mt-3 gap-2">
+						{#each currentCard?.tags as tagString}
+							{@const [tag, color] = tagString.includes(":") ? tagString.split(":") : [tagString, "blue"]}
+							<div 
+								class="flex-0 text-nowrap rounded-full px-3 py-1 shadow-[1.5px_4px_0px_var(--transp-shad)]"
+								style={`color: var(--${color}-main); background-color: var(--${color}-text)`}
+							>
+								{tag}
+							</div>
 						{/each}
 					</div>
+				{/if}
+				{#if currentCard?.longDescription}
+				<p class="long-description text-lg mt-2 w-full text-left">
+					{@html currentCard?.longDescription}
+				</p>
+				{/if}
+				{#if currentCard?.links}
+				<div class="flex w-full gap-5 justify-center">
+					{#each currentCard?.links as linkInfo}
+					<a class="card-link text-lg mt-2 text-left" href={linkInfo.link}>
+						{linkInfo.label}
+					</a>
+					{/each}
+				</div>
 				{/if}
 			</div>
 		</div>

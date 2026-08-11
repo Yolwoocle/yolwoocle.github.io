@@ -30,7 +30,7 @@
   }
 </script>
 
-<div class="flex flex-col gap-10 w-full justify-center p-6">
+<div class="flex flex-col gap-10 w-full justify-center align-start p-6">
   {#each cards as cardSet}
     <div class={cn('flex flex-wrap gap-6 justify-center', 'max-w-[1000px]')}>
       {#each cardSet as card}
@@ -48,8 +48,10 @@
             titleTextSize={card?.cardType == "small" ? "l" : "xl"}
             descriptionTextSize={"md"}
 
-            width={card?.cardType == "large" ? "372px" : card?.cardType == "small" ? "166px" : cardWidth}
-            height={card?.cardType == "large" ? "280px" : card?.cardType == "small" ? "240px" : cardHeight}
+            tags={card?.tags}
+
+            width={card?.cardType == "large" ? "372px" : card?.cardType == "normal" ? "240px" : "166px" /*small*/}
+            height={card?.cardType == "large" ? "320px" : card?.cardType == "normal" ? '300px' : "240px" /*small*/}
             starred={card?.starred}
             showTitle={showLabels}
 

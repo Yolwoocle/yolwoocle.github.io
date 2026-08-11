@@ -1,11 +1,29 @@
 [
 	[
 		{
+			"cardType" : "large",
+			"starred" : true,
+			
+			"label" : "Ninesliced",
+			"description" : "A game making band",
+			"tags" : ["Team:pink"],
+			"longDescription" : "Ninesliced is a game-making band that I co-created in 2024 in sunny Montpellier with a bunch of friends, under our common love for creating things.<br>It was made with the idea of having being borderless, in its team, but also in its ideas.",
+			"img" : "/assets/images/projects/ninesliced/ninesliced_games_key.png",
+			"imgAlt" : "",
+			"carouselImg" : "/assets/images/projects/ninesliced/ninesliced_games_linkedin_intro_post.png",
+			"carouselImgAlt" : "",
+			"trailer" : null,
+			"links": [
+				{"label": "Website", "link": "https://ninesliced.com/"}
+			]
+		}, 
+		{
 			"cardType": "large",
 			"starred": true,
 			
 			"label": "Bugscraper",
 			"description": "Rise to the top of a bug-filled skyscraper",
+			"tags": ["Action:pink", "Shooter:pink", "Platformer:pink", "2D:pink", "LÖVE:blue"],
 			"longDescription": "Welcome to the Bugscraper.<br>\nBugscraper is a solo or co-op roguelike shooter. As you climb toward your tyrannical boss's office, \nyou'll battle floor after floor of enemies. Using a wide arsenal of weapons and upgrades, mow \nthem down and aim for the top!<br><br>\n\nThis game was made using L\u00d6VE, a Lua game framework. It is the result of almost 3 years \nof development. I was responsible for nearly everything: code, art, design, marketing; except for music (made by <a class=\"card-link\">OLX</a>) and sound design (made by <a class=\"card-link\">Martin Domergue</a>).\n",
 			"img": "/assets/images/games/bugscraper/thumbnail.png",
 			"imgAlt": "Bugscraper key art",
@@ -20,11 +38,12 @@
 			]
 		}, 
 		{
-			"cardType": "large",
+			"cardType": "normal",
 			"starred": true,
 
 			"label": "Globs",
 			"description": "Meet the size-changing Globs in this colorful puzzle game",
+			"tags": ["Puzzle:pink", "2D:pink", "Godot:blue"],
 			"longDescription": " Meet the size-changing Globs in this colorful puzzle game. Use the curious properties of their bodies at your advantage to solve a variety of puzzles, all in a expressive pixel art aesthetic and upbeat soundtrack.\n<br>\nThe puzzles are designed to be approachable, but provide additional optional challenges for players wishing to put their puzzle-solving skills to the test.  \nDiscover 40 levels across 4 different worlds.<br><br>\n\nThis game was originally made for the <a href=\"https://itch.io/jam/gmtk-2024\" class=\"card-link\">GMTK Game Jam 2024</a> in a team of 5, and seeing that the game had potential for a full release,\nwe continued working on it afterwards. It was made using Godot. I was responsible for system and \ngameplay programming, and art. <br><br>\n",
 			"img": "/assets/images/games/globs/thumbnail.png",
 			"imgAlt": "Globs key art",
@@ -38,16 +57,15 @@
 				{"label": "itch.io", "link": "https://ninesliced.itch.io/globs/"},
 				{"label": "Github", "link": "https://github.com/ARKANYOTA/gmtk2024/"}
 			]
-		} 
-	],
-	[
+		},
 		{
-			"cardType": "large",
+			"cardType": "normal",
 			
 			"starred": true,
 
 			"label": "Birds With Guns",
 			"description": "Mess with the Flock, you get the Glock",
+			"tags": ["Action:pink", "Shooter:pink", "Top-down:pink", "2D:pink", "PICO-8:blue"],
 			"longDescription": "Are you ready to have a quacking time? Toucan play this egg-citing game \nright now! Made by an im-peck-able team of quail-ified developers, you're gonna have no egrets.<br><br> \n\nBirds With Guns is a game I made with a friend over the course of a vacation using \n<a class=\"card-link\" href=\"https://www.lexaloffle.com/pico-8.php\">PICO-8</a>.",
 			"img": "/assets/images/games/bwg/bird_thumbnail.png",
 			"imgAlt": "",
@@ -60,11 +78,12 @@
 			]
 		}, 
 		{
-			"cardType": "large",
+			"cardType": "normal",
 			"starred": false,
 
 			"label": "Pico Dino",
 			"description": "Reimagining Google Chrome's secret game",
+			"tags": ["Action:pink", "Runner:pink", "2D:pink", "PICO-8:blue"],
 			"longDescription": "<b>Pico Dino</b> is what came out as I tried to make something simple, but as polished as possible. I really like complexity \nthat rises from simple things, so I found it very fun trying to come up with a complex moveset \nfrom a very simple 2-button control scheme. I originally wanted to add different worlds, power-ups, more enemies, but at some point I had \nto make something I could actually finish. Nonetherless, I'm quite pleased with how it turned out.<br><br>\nI sent my game by email to Edward Jung, one of the two creators of the original game, and he seemed to love it, which made me very happy.\n",
 			"img": "/assets/images/games/picodino/thumbnail.png",
 			"imgAlt": "Pico Dino thumbnail. A dinosaur jumps over cacti in a black and white pixel art desert",
@@ -85,6 +104,7 @@
 			
 			"label": "Shotcave",
 			"description": "A Minecraft roguelike plugin",
+			"tags": ["Roguelike:pink", "Shooter:pink", "Action:pink", "Minecraft:blue", "Java:blue"],
 			"longDescription": "\n<b>Shotcave</b> is a cooperative or solo roguelike Minecraft Bukkit plugin. \nIt takes place in an abandoned mine composed of randomly generated levels. \nPlayers must defeat enemies at every level to progress. To do so, they are \nequipped with weapons like swords and guns. If all players die, the game ends \nand all progress is lost permanently.<br><br>\n\nThe plugin is currently unfinished and we're planning on continuing development at\na later date, but you can take a look at the presentation document.\n",
 			"img": "/assets/images/games/shotcave/image.png",
 			"imgAlt": "",
@@ -101,6 +121,7 @@
 			
 			"label": "Minesweeper Royale",
 			"description": "Minesweeper, but it's a battle royale.",
+			"tags": ["Strategy:pink", "Battle Royale:pink", "LÖVE:blue"],
 			"longDescription": "<b>Minesweeper Royale</b> is what minesweeper would be like if it were\na battle royale game. Multiple players compete to be the fastest to complete the\nsame minesweeper board, or to be the last one alive. This game is complete with a chat\nsystem and a display showing all the player boards. This was my first ever attempt \nat networking, using the L&Ouml;VE framework and luasocket. It was a project I made \nfor school, hence I didn't release any executables for it.<br><br>\n\nDuring my attempts to make it work, I have rarely managed to make it\nwork across multiple computers, but it does work locally. I encourage you to take \na look at the source code.",
 			"img": "/assets/images/games/minesweeper_royale/thumbnail.png",
 			"imgAlt": "",
@@ -110,31 +131,13 @@
 			"links": [
 				{"label": "GitHub", "link": "https://github.com/Yolwoocle/Minesweeper_Royale"}
 			]
-		}, 
-		{
-			"cardType": "normal",
-			"starred": false,
-			
-			"label": "Derailed!",
-			"description": "A co-op game about building tracks",
-			"longDescription": "<b>Derailed!</b> is yet another PICO-8 game I made to challenge myself. \nIt's a co-op game where you need to communicate with a friend to bring a train to its \nstation. It's a fan-made demake of <a class=\"card-link\" href=\"https://store.steampowered.com/app/1016920/Unrailed/\">Unrailed!</a>. \nAfter I made some concept art for a \nPICO-8 demake of this game, I thought it would be fun to actually turn it into a \nreal thing. I hope that you'll have fun playing it, and maybe you can grab a friend \nto try it out.<br><br>\n\nThe game is unfinished and I do not plan to finish it.",
-			"img": "/assets/images/games/derailed/pico-8_unrailed_concept_thumbnail.png",
-			"imgAlt": "",
-			"carouselImg": "/assets/images/games/derailed/pico-8_unrailed_concept_thumbnail_wide.png",
-			"carouselImgAlt": "",
-			"trailer": null,
-			"links": [
-				{"label": "PICO-8 Forums", "link": "https://www.lexaloffle.com/bbs/?pid=derailed"},
-				{"label": "itch.io", "link": "https://yolwoocle.itch.io/derailed"}
-			]
 		}
 	],
-
 	[
 		{
 			"cardType": "title",
 
-			"text": "Game jam games"
+			"text": "Game jam games & experiments"
 		}		
 	],
 
@@ -143,8 +146,9 @@
 			"cardType": "small",
 			"starred": true,
 
-			"label": "Montic",
+			"label": "Montic (GMTK Game Jam 2026 Edition)",
 			"description": "Time is Monkey",
+			"tags": ["Strategy:pink", "Defense:pink", "Game Jam:pink", "Godot:blue"],
 			"longDescription": "Protect spacetime from an invasion of time-eating termites in this turn-based defense game.<br><br>Originally made for GMTK Game Jam 2026!",
 			"img": "/assets/images/games/montic/thumbnail.png",
 			
@@ -161,6 +165,7 @@
 			
 			"label": "ROQUIN",
 			"description": "Rocks vs Sharks",
+			"tags": ["Defense:pink", "Island:pink", "Godot:blue"],
 			"longDescription": "Build your island and defend your precious rock against sharks. And The Rock.<br><br>\nMade using Godot for <a class=\"card-link href=\"https://itch.io/jam/micro-jam-061\">Micro Jam 61</a>, under the theme \"Islands\" and limitation \"You Start With Nothing\".",
 			"img": "/assets/images/games/roquin/thumbnail.png",
 			
@@ -178,6 +183,7 @@
 			
 			"label": "Bal Cosmique",
 			"description": "Create evil masks as a mischievous wizard",
+			"tags": ["Co-op:pink", "Communication:pink", "Game Jam:pink", "Godot:blue"],
 			"longDescription": "Bal Cosmique is a 2-player communication game inspired by 'Keep Talking And Nobody Explodes'.  <br><br>\n\nYou play the role of a mischievous wizard, and with the help of your apprentice, you create masks. Alas, your customers are demanding, and so you wish to curse them. To do this, you must communicate with your friend to find out the right way to curse them using your trusty Manual.<br><br>\n\nThis game is in French only. It was created for <a class=\"card-link\" href=\"https://globalgamejam.org/games/2026\">Global Game Jam 2026.</a>",
 			"img": "/assets/images/games/bal_cosmique/itchio_thumbnail.png",
 			
@@ -195,6 +201,7 @@
 			
 			"label": "Moo Moo Ranch",
 			"description": "A game about cows and cow-boys",
+			"tags": ["Action:pink", "Arcade:pink", "Game Jam:pink", "Godot:blue"],
 			"longDescription": "Sort your cows by looping around them like a true cowboy. (Teehaw!) <br>\nSort your cows into the right colors. The more cows you capture, the higher your combo and multiplier.<br><br>\n\nThis game was created for the <a class=\"card-link\" href=\"https://itch.io/jam/gmtk-2025\">GMTK Game Jam 2025</a>.",
 			"img": "/assets/images/games/moomooranch/thumbnail_nologo.png",
 			"imgAlt": "",
@@ -212,6 +219,7 @@
 			
 			"label": "Gemchef",
 			"description": "Cook gems and earn money",
+			"tags": ["Action:pink", "Mining:pink", "Game Jam:pink", "Godot:blue"],
 			"longDescription": "Mine through a dangerous cave system, collect gems, \nthen refine them to earn money.<br><br>\n\nThis game was created for <a class=\"card-link\" href=\"https://ldjam.com/events/ludum-dare/57\">Ludum Dare 57</a>.\n",
 			"img": "/assets/images/games/gemchef/thumbnail_nologo.png",
 			"imgAlt": "",
@@ -229,6 +237,7 @@
 			
 			"label": "The Legend of the Goldfish",
 			"description": "Dive to the bottom of the ocean",
+			"tags": ["Action:pink", "Adventure:pink", "Game Jam:pink", "Godot:blue"],
 			"longDescription": "You are a diver on a quest to find the legendary Goldfish at \nthe bottom of a trench. Carefully manage your oxygen as you use it to eliminate \nenemies and get to the bottom of the ocean!<br><br>\n\nThis game was created for <a class=\"card-link\" href=\"https://globalgamejam.org/games/2025/\">Global Game Jam 2025</a>",
 			"img": "/assets/images/games/goldfish/thumbnail.png",
 			"imgAlt": "",
@@ -247,6 +256,7 @@
 			
 			"label": "Globs (GMTK Game Jam 2024 Edition)",
 			"description": "A colorful puzzle game",
+			"tags": ["Puzzle:pink", "2D:pink", "Game Jam:pink", "Godot:blue"],
 			"longDescription": "Meet the size-changing Globs in this colorful puzzle game. \nUse the curious properties of their bodies at your advantage to solve a variety \nof levels, all in a lively and expressive pixel art aesthetic and jazzy soundtrack.<br><br>\n\nThis game was created for \n<a class=\"card-link\" href=\"https://itch.io/jam/gmtk-2024/\">\nGMTK Game Jam 2024</a>, and we continued working on it and then released on PC and mobile,\nwhich you can learn more about on the corresponding slide on this page.",
 			"img": "/assets/images/games/globs-gmtk/thumbnail_gamejam_animated.gif",
 			"imgAlt": "",
@@ -264,6 +274,7 @@
 			
 			"label": "Switch Job",
 			"description": "Switch your way into this puzzle platformer",
+			"tags": ["Puzzle:pink", "Platformer:pink", "Game Jam:pink", "Godot:blue"],
 			"longDescription": "People have been hearing strange things about the local warehouse. \nYou're an engineer given the task of inspecting this rusty old building.  \nBy cleverly swapping building materials, reach the end of each level and discover \nwhat's hiding at the end of the warehouse! <br><br>\n\nThis game was created for \n<a class=\"card-link\" href=\"https://itch.io/jam/gmtk-2023\">\nGMTK Game Jam 2023</a>",
 			"img": "/assets/images/games/switchjob/thumb.png",
 			"imgAlt": "",
@@ -282,6 +293,7 @@
 			
 			"label": "Oracle's Inn",
 			"description": "Practise Malpractice",
+			"tags": ["Simulation:pink", "Time Management:pink", "Game Jam:pink", "PICO-8:blue"],
 			"longDescription": "Welcome to my potion shoppe! I'm glad to have you here. However, I can sense dark waters in your future. I know just the ingredients...\nIn <b>Oracle's Inn</b>, you take the role of alchemist/doctor/oracle/bundle \nof joy and happen to be just the person your customers need. Catch glimpses \ninto the futures of your customers, and prepare for them live-saving potions in advance!<br><br>\n\nThis game was made in 3 days with Louie Chapman for the Mini Jam 112, \nfollowing the theme \"Chrono\" and limitation \"Only three buttons\".",
 			"img": "/assets/images/games/oraclesInn/OraclesInnThumnail.png",
 			"imgAlt": "",
@@ -299,6 +311,7 @@
 			
 			"label": "Dice Drop Dash",
 			"description": "A Dizzying Dance of Dropping Dice",
+			"tags": ["Arcade:pink", "Puzzle:pink", "Game Jam:pink", "PICO-8:blue"],
 			"longDescription": "When you drop a dice, its value will be subtracted from the value of \nthe highest in the stack, and the difference will grant you points. \nAim for the highest score without overflowing the stack! <br><br>\n\nThis game was made within a tight ~6 hour period rather than the 50 hour \nperiod of the <a class=\"card-link\" href=\"https://itch.io/jam/gmtk-jam-2022\">\nGMTK Game Jam 2022</a>, following the theme \"Roll of the Dice\"",
 			"img": "/assets/images/games/dicedropdash/thumb.png",
 			"imgAlt": "",
@@ -316,6 +329,7 @@
 			
 			"label": "Octoboom",
 			"description": "Ping, Pong, Boom.",
+			"tags": ["Arcade:pink", "Action:pink", "Game Jam:pink", "LÖVE:blue"],
 			"longDescription": "<b>Octoboom</b> is a game I made with friends for \n<a class=\"card-link\" href=\"https://ldjam.com/events/ludum-dare/49\">Ludum Dare 49</a> \nin the span of 3 days. <br>An accident has occurred in the mine and \ntoxic gas is escaping! Flee! Your bomb is your weapon. Throw it on \nenemies, and catch it before it explodes. The longer you let it \nfly, the more points it\u2019ll give you, but this is at your own risk.",
 			"img": "/assets/images/games/octoboom/thumbnail.png",
 			"imgAlt": "",
@@ -329,9 +343,28 @@
 		}, 
 		{
 			"cardType": "small",
+			"starred": false,
+			
+			"label": "Derailed!",
+			"description": "A co-op game about building tracks",
+			"tags": ["Co-op:pink", "Action:pink", "PICO-8:blue"],
+			"longDescription": "<b>Derailed!</b> is yet another PICO-8 game I made to challenge myself. \nIt's a co-op game where you need to communicate with a friend to bring a train to its \nstation. It's a fan-made demake of <a class=\"card-link\" href=\"https://store.steampowered.com/app/1016920/Unrailed/\">Unrailed!</a>. \nAfter I made some concept art for a \nPICO-8 demake of this game, I thought it would be fun to actually turn it into a \nreal thing. I hope that you'll have fun playing it, and maybe you can grab a friend \nto try it out.<br><br>\n\nThe game is unfinished and I do not plan to finish it.",
+			"img": "/assets/images/games/derailed/pico-8_unrailed_concept_thumbnail.png",
+			"imgAlt": "",
+			"carouselImg": "/assets/images/games/derailed/pico-8_unrailed_concept_thumbnail_wide.png",
+			"carouselImgAlt": "",
+			"trailer": null,
+			"links": [
+				{"label": "PICO-8 Forums", "link": "https://www.lexaloffle.com/bbs/?pid=derailed"},
+				{"label": "itch.io", "link": "https://yolwoocle.itch.io/derailed"}
+			]
+		},
+		{
+			"cardType": "small",
 			
 			"label": "Anchors & Miners",
 			"description": "Mining deep down into caves with an anchor",
+			"tags": ["Action:pink", "Mining:pink", "Game Jam:pink", "PICO-8:blue"],
 			"longDescription": "Mine deep down into caves using an anchor! \nGet gemstones and avoid red explosives, and get the best score! <br><br>\n\n\nMade for <a class=\"card-link\" href=\"https://ldjam.com/events/ludum-dare/48\">Ludum Dare 48</a> \nbased on the theme \"Deeper and deeper\".",
 			"img": "/assets/images/games/anchorsAndMiners/thumbnail3.png",
 			"imgAlt": "",
@@ -348,6 +381,7 @@
 			
 			"label": "Chaser Of Dawn",
 			"description": "A game about looping around a planet",
+			"tags": ["Action:pink", "Game Jam:pink", "PICO-8:blue"],
 			"longDescription": "<b>Chaser Of Dawn</b> is a game that was made for the \n<a class=\"card-link\" href=\"https://ldjam.com/events/ludum-dare/47\">Ludum Dare 47</a> game jam.\nWe had 3 days to make a game based on the theme \"Stuck in a loop\", and we used the Pico-8 engine. <br>\nThe game was inspired by exoplanets that don't rotate and have a very big difference in temperature\nbetween their two sides.<br>\nIt was a lot of fun and we hope to do more games like this in the future!",
 			"img": "/assets/images/games/chaserofdawn/chaserofdawn_miniature.png",
 			"imgAlt": "",
@@ -360,5 +394,44 @@
 				{"label": "Ludum Dare 47 Submission", "link": "https://ldjam.com/events/ludum-dare/47/chaser-of-dawn"}
 			]
 		} 
+	],
+
+	[
+		{
+			"cardType": "title",
+
+			"text": "Other"
+		}		
+	],
+
+	[
+		{
+			"cardType" : "normal",
+			
+			"label" : "Interactive Linear Algebra Lesson",
+			"description" : "",
+			"longDescription" : "An experiment made using p5.js to see how an interactive lesson could look like. The idea is to let people play around with vectors and matrices and get an intuitive feeling for how they work before tackling more complex ideas. It's based on my own linear algebra classes at the lycée du Parc (MP2I) and 3blue1brown's <a class='card-link' href=\"https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab\"> excellent video series</a> on this topic.",
+			"img" : "/assets/images/projects/algebra/linearalgebra.png",
+			"imgAlt" : "",
+			"carouselImg" : "/assets/images/projects/algebra/linearalgebra.png",
+			"carouselImgAlt" : "",
+			"trailer" : null,
+			"links": [
+				{"label": "Discover experiment", "link": "https://yolwoocle.github.io/legacy/linear_algebra/index.html"}
+			]
+		}, 
+		{
+			"cardType" : "normal",
+			"starred" : true,				
+
+			"label" : "Minecon Earth 2018 Costume Contest",
+			"description" : "",
+			"longDescription" : "When I was 13 years old, I participated in a Minecraft Cosplay Contest, won and got invited to present it in Boston. This project took me in 3 months in total. All the moving mechanisms use strings, which are pulled from the inside. I still have no idea how I managed to make this pile of cardboard, colored paper and hot glue hold together. We even had to rebuild all of it before heading off to Boston.<br> It definitely was an incredible experience that I got to remember for years to follow. I even got to meet jeb! By the way, inside the costume is my little sister! She said it was really hot inside.",
+			"img" : "/assets/images/projects/minecon/image.png",
+			"imgAlt" : "",
+			"carouselImg" : null,
+			"trailer" : "https://www.youtube.com/embed/nxy_tsUrZUs",
+			"links": []
+		}
 	]
 ]
