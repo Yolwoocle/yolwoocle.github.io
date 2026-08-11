@@ -141,15 +141,16 @@
 	[
 		{
 			"cardType": "small",
-			
+			"starred": true,
+
 			"label": "Montic",
 			"description": "Time is Monkey",
 			"longDescription": "Protect spacetime from an invasion of time-eating termites in this turn-based defense game.<br><br>Originally made for GMTK Game Jam 2026!",
 			"img": "/assets/images/games/montic/thumbnail.png",
 			
-			"carouselImg": "/assets/images/games/montic/image.png",
+			"carouselImg": null,
 			
-			"trailer": null,
+			"trailer": "https://www.youtube.com/embed/bl4T60oEZtM",
 			"links": [
 				{"label": "itch.io", "link": "https://ninesliced.itch.io/montic"}
 			]
