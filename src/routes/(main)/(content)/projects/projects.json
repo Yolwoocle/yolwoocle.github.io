@@ -293,7 +293,7 @@
 			
 			"label": "Oracle's Inn",
 			"description": "Practise Malpractice",
-			"tags": ["Simulation:pink", "Time Management:pink", "Game Jam:pink", "PICO-8:blue"],
+			"tags": ["Simulation:pink", "Game Jam:pink", "PICO-8:blue"],
 			"longDescription": "Welcome to my potion shoppe! I'm glad to have you here. However, I can sense dark waters in your future. I know just the ingredients...\nIn <b>Oracle's Inn</b>, you take the role of alchemist/doctor/oracle/bundle \nof joy and happen to be just the person your customers need. Catch glimpses \ninto the futures of your customers, and prepare for them live-saving potions in advance!<br><br>\n\nThis game was made in 3 days with Louie Chapman for the Mini Jam 112, \nfollowing the theme \"Chrono\" and limitation \"Only three buttons\".",
 			"img": "/assets/images/games/oraclesInn/OraclesInnThumnail.png",
 			"imgAlt": "",
@@ -311,7 +311,7 @@
 			
 			"label": "Dice Drop Dash",
 			"description": "A Dizzying Dance of Dropping Dice",
-			"tags": ["Arcade:pink", "Puzzle:pink", "Game Jam:pink", "PICO-8:blue"],
+			"tags": ["Arcade:pink", "Game Jam:pink", "PICO-8:blue"],
 			"longDescription": "When you drop a dice, its value will be subtracted from the value of \nthe highest in the stack, and the difference will grant you points. \nAim for the highest score without overflowing the stack! <br><br>\n\nThis game was made within a tight ~6 hour period rather than the 50 hour \nperiod of the <a class=\"card-link\" href=\"https://itch.io/jam/gmtk-jam-2022\">\nGMTK Game Jam 2022</a>, following the theme \"Roll of the Dice\"",
 			"img": "/assets/images/games/dicedropdash/thumb.png",
 			"imgAlt": "",
@@ -364,7 +364,7 @@
 			
 			"label": "Anchors & Miners",
 			"description": "Mining deep down into caves with an anchor",
-			"tags": ["Action:pink", "Mining:pink", "Game Jam:pink", "PICO-8:blue"],
+			"tags": ["Action:pink", "Arcade:pink", "Game Jam:pink", "PICO-8:blue"],
 			"longDescription": "Mine deep down into caves using an anchor! \nGet gemstones and avoid red explosives, and get the best score! <br><br>\n\n\nMade for <a class=\"card-link\" href=\"https://ldjam.com/events/ludum-dare/48\">Ludum Dare 48</a> \nbased on the theme \"Deeper and deeper\".",
 			"img": "/assets/images/games/anchorsAndMiners/thumbnail3.png",
 			"imgAlt": "",
@@ -381,7 +381,7 @@
 			
 			"label": "Chaser Of Dawn",
 			"description": "A game about looping around a planet",
-			"tags": ["Action:pink", "Game Jam:pink", "PICO-8:blue"],
+			"tags": ["Survival:pink", "Game Jam:pink", "PICO-8:blue"],
 			"longDescription": "<b>Chaser Of Dawn</b> is a game that was made for the \n<a class=\"card-link\" href=\"https://ldjam.com/events/ludum-dare/47\">Ludum Dare 47</a> game jam.\nWe had 3 days to make a game based on the theme \"Stuck in a loop\", and we used the Pico-8 engine. <br>\nThe game was inspired by exoplanets that don't rotate and have a very big difference in temperature\nbetween their two sides.<br>\nIt was a lot of fun and we hope to do more games like this in the future!",
 			"img": "/assets/images/games/chaserofdawn/chaserofdawn_miniature.png",
 			"imgAlt": "",
