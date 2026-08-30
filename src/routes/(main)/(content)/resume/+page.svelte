@@ -32,7 +32,7 @@
             <ResumeCard
                 title="Godot Developer"
                 subtitle="SMKS Studios · Remote"
-                period="May 2026 - Present ({smksDuration} months)"
+                period="May 2026 - August 2026 (3 months)"
                 stickerImg="/assets/images/resume/tota.png"
                 stickerAlt="Tribe of the Accord logo"
                 stickerRound={true}
