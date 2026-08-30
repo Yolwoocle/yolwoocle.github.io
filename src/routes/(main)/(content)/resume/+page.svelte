@@ -10,12 +10,6 @@
     (today.getFullYear() - nineslicedStartDate.getFullYear()) * 12 +
     (today.getMonth() - nineslicedStartDate.getMonth());
   const nineslicedDuration = `${nineslicedMonths}`;
-  
-  const smksStartDate = new Date('2026-05-27');
-  const smksMonths =
-    (today.getFullYear() - smksStartDate.getFullYear()) * 12 +
-    (today.getMonth() - smksStartDate.getMonth());
-  const smksDuration = `${smksMonths}`;
 </script>
 
 <div class="w-full flex flex-col items-center">
@@ -32,7 +26,7 @@
             <ResumeCard
                 title="Godot Developer"
                 subtitle="SMKS Studios · Remote"
-                period="May 2026 - August 2026 (3 months)"
+                period="June 2026 - August 2026 (3 months)"
                 stickerImg="/assets/images/resume/tota.png"
                 stickerAlt="Tribe of the Accord logo"
                 stickerRound={true}
